@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="16dp"
+    android:background="@drawable/item_background"
+    android:layout_marginBottom="8dp">
+
+    <!-- Ícone -->
+    <ImageView
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:src="@drawable/ic_appliances"
+        android:layout_marginEnd="16dp"
+        app:tint="#20c997" />
+
+    <!-- Informações do Eletrodoméstico -->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/textViewApplianceName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nome do Eletrodoméstico"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textViewPowerConsumption"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Consumo: 800 W"
+            android:textColor="#B0BEC5"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <!-- Botões de Ação -->
+    <ImageButton
+        android:id="@+id/buttonEdit"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:src="@drawable/ic_edit"
+        app:tint="#20c997" />
+
+    <ImageButton
+        android:id="@+id/buttonDelete"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:src="@drawable/ic_delete"
+        android:layout_marginStart="8dp"
+        app:tint="#E57373" />
+</LinearLayout>

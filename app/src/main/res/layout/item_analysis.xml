@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#002b3b"
+    android:layout_margin="8dp"
+    android:elevation="4dp">
+
+    <!-- Data -->
+    <TextView
+        android:id="@+id/textViewDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Data: 01/01/2024"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        android:layout_marginBottom="8dp" />
+
+    <!-- Consumo Total -->
+    <TextView
+        android:id="@+id/textViewTotalConsumption"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Consumo Total: 0.81 kWh"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        android:layout_marginBottom="4dp" />
+
+    <!-- Horas de Luz Solar -->
+    <TextView
+        android:id="@+id/textViewSunlightHours"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Horas de Luz Solar: 5h"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        android:layout_marginBottom="8dp" />
+
+    <!-- Resultado -->
+    <TextView
+        android:id="@+id/textViewResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Você precisará de 7 painéis solares de 250W para suprir seu consumo diário."
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="8dp" />
+
+    <!-- Lista de Eletrodomésticos -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Eletrodomésticos:"
+        android:textColor="#FFC107"
+        android:textStyle="bold"
+        android:textSize="14sp"
+        android:layout_marginBottom="4dp" />
+
+    <LinearLayout
+        android:id="@+id/applianceContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <!-- Os eletrodomésticos serão adicionados programaticamente aqui -->
+    </LinearLayout>
+
+</LinearLayout>

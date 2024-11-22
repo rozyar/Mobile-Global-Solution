@@ -1,0 +1,73 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#001f2b"
+    android:padding="24dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Registrar"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="24dp" />
+
+        <EditText
+            android:id="@+id/editTextName"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:padding="12dp"
+            android:hint="Nome"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#6c757d"
+            android:background="@drawable/edittext_background"
+            android:layout_marginBottom="16dp" />
+
+        <EditText
+            android:id="@+id/editTextEmail"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:padding="12dp"
+            android:hint="Email"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#6c757d"
+            android:background="@drawable/edittext_background"
+            android:layout_marginBottom="16dp" />
+
+        <EditText
+            android:id="@+id/editTextPassword"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:padding="12dp"
+            android:hint="Senha"
+            android:inputType="textPassword"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#6c757d"
+            android:background="@drawable/edittext_background"
+            android:layout_marginBottom="24dp" />
+
+        <Button
+            android:id="@+id/buttonRegister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Registrar"
+            android:textColor="#FFFFFF"
+            android:background="@color/colorPrimary"
+            android:layout_marginBottom="16dp" />
+
+        <Button
+            android:id="@+id/buttonBackToLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Voltar ao Login"
+            android:textColor="#FFFFFF"
+            android:background="@color/colorAccent" />
+    </LinearLayout>
+</ScrollView>

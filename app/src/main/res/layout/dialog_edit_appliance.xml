@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#001f2b"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/editTextApplianceName"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:padding="12dp"
+        android:hint="Nome do Eletrodoméstico"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#6c757d"
+        android:background="@drawable/edittext_background" />
+
+    <EditText
+        android:id="@+id/editTextPowerConsumption"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:padding="12dp"
+        android:hint="Consumo (Watts)"
+        android:inputType="numberDecimal"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#6c757d"
+        android:background="@drawable/edittext_background"
+        android:layout_marginTop="8dp" />
+
+</LinearLayout>

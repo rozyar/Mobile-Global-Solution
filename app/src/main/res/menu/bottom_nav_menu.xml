@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/ic_home"
+        android:title="Home" />
+
+    <item
+        android:id="@+id/nav_calculate"
+        android:icon="@drawable/ic_calculate"
+        android:title="Cálculo" />
+
+    <item
+        android:id="@+id/nav_appliances"
+        android:icon="@drawable/ic_appliances"
+        android:title="Eletrônicos" />
+
+    <item
+        android:id="@+id/nav_analyses"
+        android:icon="@drawable/ic_analyses"
+        android:title="Análises" />
+
+    <item
+        android:id="@+id/nav_logout"
+        android:icon="@drawable/ic_logout"
+        android:title="Logout" />
+</menu>
